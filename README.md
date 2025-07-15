@@ -449,6 +449,7 @@
                 <li><a href="#caracteristicas">Características</a></li>
                 <li><a href="#proceso">Proceso</a></li>
                 <li><a href="#registro">Registro</a></li>
+                <li><a href="https://drive.google.com/file/d/1yiOu9tiFiSaGRdlJnCz8tCto83E4A8yC/view?usp=sharing" target="_blank">Ruta de Transporte</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -486,7 +487,7 @@
             </div>
         </section>
 
-        <section class="features" id="caracteristicas">
+        <section class="features" id="caracteristicas"> 
             <div class="container">
                 <h2 style="text-align: center; font-size: 2.5rem; color: #333; margin-bottom: 1rem;">Características Principales</h2>
                 <div class="features-grid">
