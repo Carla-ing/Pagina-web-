@@ -580,8 +580,8 @@
                     
                     <div class="alternative-info">
                         <h4>¿Tienes problemas para acceder?</h4>
-                        <p>📞 Llámanos al: 01-234-5678</p>
-                        <p>📧 Escríbenos a: registro@transcard.pe</p>
+                        <p>📞 Llámanos al: 904 510 446</p>
+                        <p>📧 Escríbenos a: proyectopagoportarjetaunfv@gmail.com</p>
                         <p>🏢 Visítanos en cualquiera de nuestras oficinas</p>
                     </div>
                 </div>
@@ -593,7 +593,7 @@
         <div class="container">
             <h3>¿Necesitas más información?</h3>
             <p>Contacta con nuestro equipo de soporte</p>
-            <p>📧 info@transcard.pe | 📞 01-234-5678</p>
+            <p>📧 proyectopagoportarjetaunfv@gmail.com | 📞 904 510 446</p>
             <p style="margin-top: 1rem; opacity: 0.7;">&copy; 2025 TransCard - Sistema de Regularización de Transporte</p>
         </div>
     </footer>
