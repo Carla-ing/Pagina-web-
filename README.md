@@ -25,7 +25,7 @@
         }
 
         header {
-            background: rgba(255, 255, 255, 0.1);
+           background: rgba(0, 191, 255, 0.8);
             backdrop-filter: blur(10px);
             padding: 1rem 0;
             position: fixed;
@@ -36,7 +36,7 @@
         }
 
         header.scrolled {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(0, 191, 255, 0.8);
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
         }
 
@@ -449,7 +449,7 @@
                 <li><a href="#caracteristicas">Características</a></li>
                 <li><a href="#proceso">Proceso</a></li>
                 <li><a href="#registro">Registro</a></li>
-                <li><a href="https://drive.google.com/file/d/1yiOu9tiFiSaGRdlJnCz8tCto83E4A8yC/view?usp=sharing" target="_blank">Ruta de Transporte</a></li>
+                <li><a href="https://carla-ing.github.io/TransCard" target="_blank">Ruta de Transporte</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
