@@ -513,12 +513,12 @@
                     <div class="feature-card">
                         <div class="feature-icon">🌐</div>
                         <h3>Recarga Online</h3>
-                        <p>Recarga tu tarjeta desde cualquier lugar usando nuestra aplicación móvil.</p>
+                        <p>Recarga tu tarjeta desde los puntos de autorizados y mediante la pagina</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">📈</div>
-                        <h3>Reportes Detallados</h3>
-                        <p>Consulta tu historial de viajes y gastos en transporte en tiempo real.</p>
+                        <h3>Mejor Calidad de servicio de transporte para los ciudadanos</h3>
+                        <p> “Transporte seguro y eficiente: menos robos, más confianza para los ciudadanos.” </p>
                     </div>
                 </div>
             </div>
