@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -257,6 +257,127 @@
             margin: 0 auto 1rem;
         }
 
+        /* Estilos para el registro actualizado */
+        .registro {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 4rem 0;
+            margin: 2rem 0;
+            border-radius: 30px;
+            color: #333;
+        }
+
+        .registro-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .info-box h3 {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-box ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .info-box li {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .info-box li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .form-redirect {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+
+        .form-redirect-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .form-redirect h3 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .form-redirect p {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .google-form-btn {
+            background: linear-gradient(45deg, #4285f4, #34a853);
+            color: white;
+            padding: 1.2rem 2.5rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin: 0.5rem;
+        }
+
+        .google-form-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(66, 133, 244, 0.3);
+        }
+
+        .google-form-btn::before {
+            content: "📝";
+            font-size: 1.2rem;
+        }
+
+        .alternative-info {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+            border-left: 4px solid #667eea;
+        }
+
+        .alternative-info h4 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .alternative-info p {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
         footer {
             background: rgba(0, 0, 0, 0.8);
             color: white;
@@ -286,6 +407,16 @@
             100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
         }
 
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -296,6 +427,15 @@
             }
             
             .hero p {
+                font-size: 1.1rem;
+            }
+
+            .form-redirect {
+                padding: 2rem;
+            }
+
+            .google-form-btn {
+                padding: 1rem 2rem;
                 font-size: 1.1rem;
             }
         }
@@ -309,6 +449,7 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#caracteristicas">Características</a></li>
                 <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#registro">Registro</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -319,7 +460,7 @@
             <div class="container">
                 <h1>Sistema de Regularización de Transporte</h1>
                 <p>La nueva tarjeta digital que revoluciona el transporte público</p>
-                <a href="#caracteristicas" class="cta-button">Conoce Más</a>
+                <a href="#registro" class="cta-button">Registrarse Ahora</a>
                 
                 <div class="card-demo">
                     <div class="card">
@@ -411,6 +552,42 @@
                 </div>
             </div>
         </section>
+
+        <section class="registro" id="registro">
+            <div class="registro-container">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Registro de Usuario</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">Completa tu registro a través de nuestro formulario en línea</p>
+                
+                <div class="info-box">
+                    <h3>📋 Información Importante</h3>
+                    <ul>
+                        <li>El registro es completamente gratuito</li>
+                        <li>Recibirás tu tarjeta en 3-5 días hábiles</li>
+                        <li>Puedes recoger tu tarjeta en cualquier punto autorizado</li>
+                        <li>Tarifa especial para estudiantes y adultos mayores</li>
+                    </ul>
+                </div>
+
+                <div class="form-redirect">
+                    <div class="form-redirect-icon">🚀</div>
+                    <h3>¡Registrate Ahora!</h3>
+                    <p>Te redirigiremos a nuestro formulario de registro seguro donde podrás completar todos tus datos de manera rápida y sencilla.</p>
+                    
+                    <a href="https://docs.google.com/forms/d/1XBmOtqDQX_CRxkFxvp3es55dRHjBdlttp92-P5ZrZUU/viewform" 
+                       target="_blank" 
+                       class="google-form-btn pulse">
+                        Ir al Formulario de Registro
+                    </a>
+                    
+                    <div class="alternative-info">
+                        <h4>¿Tienes problemas para acceder?</h4>
+                        <p>📞 Llámanos al: 01-234-5678</p>
+                        <p>📧 Escríbenos a: registro@transcard.pe</p>
+                        <p>🏢 Visítanos en cualquiera de nuestras oficinas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer id="contacto">
@@ -464,6 +641,12 @@
         // Observe all feature cards and steps
         document.querySelectorAll('.feature-card, .step').forEach(el => {
             observer.observe(el);
+        });
+
+        // Track form button clicks
+        document.querySelector('.google-form-btn').addEventListener('click', function() {
+            console.log('User clicked registration form button');
+            // Here you could add analytics tracking if needed
         });
     </script>
 </body>
